@@ -1,0 +1,77 @@
+/**
+ * Write CSS code in this file to style your JavaFX user interface
+ *
+ * Note: You must link this file to your scene object by adding the following line of code to the
+ * JavaFX start() method:
+ *   scene.getStylesheets().add("main.css");
+ */
+
+ .lamp {
+  -fx-background-image: url("light-bulb.png");
+  -fx-border-color: black;
+  -fx-background-size: 45px;
+    -fx-width: 90px;
+    -fx-height: 90px;
+}
+
+.lit{
+  -fx-background-color: rgb(255, 222, 5);
+  -fx-border-color: black;
+}
+
+.grid{ /**puzzleview layout*/
+ -fx-border-color: black;
+ -fx-border-width: 0 0 1 1;
+ -fx-alignment: bottom-center;
+ -fx-font-family: Arial, sans-serif;
+ -fx-font-weight: bold;
+ -fx-font-size: 35px;
+ -fx-padding: 15 80 40 80px;
+}
+
+.title{
+ -fx-pref-width: 70px;
+ -fx-pref-height: 70px;
+ -fx-alignment: center;
+ -fx-border-color: black;
+ -background-radius: 25px;
+}
+
+.illegalLamp{
+  -fx-background-color: rgb(255, 0, 0);
+  -fx-border-color: black;
+  -fx-background-image: url("light-bulb.png");
+  -fx-background-size: 45px;
+    -fx-width: 90px;
+    -fx-height: 90px;
+}
+
+.wall{
+  -fx-text-fill: #1b1313;
+  -fx-background-fill: #1b1313;
+  -fx-border-color: black;
+}
+
+.hall{
+  -fx-border-color: black;
+}
+
+.clue{
+  -fx-border-color: black;
+}
+
+.layout{
+ -fx-background-color: #ffffff;
+ -fx-font-family: Arial, sans-serif;
+ -fx-font-weight: bold;
+ -fx-font-size: 12px;
+ -fx-padding: 10px;
+ -fx-border-color: black;
+}
+
+.message{
+  -fx-padding: 1px;
+  -fx-text-fill: #000000;
+  -fx-font-size: 12px;
+  -fx-font: sans-serif;
+}
